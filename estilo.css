@@ -187,18 +187,21 @@ font-weight: bolder;
     border-radius: 5px;
     text-align: center;
     margin: 0px 80px 20px 80px;   
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.438);
 }
 
 #nivelSolar {
     background-color: rgba(211, 211, 211, 0.438);
     border-radius: 5px;
     margin: 0px 80px 20px 80px;   
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.438);
 }
 
 #defina {
     background-color: rgba(211, 211, 211, 0.438);
     border-radius: 5px;
     margin: 0px 80px 20px 80px;
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.438);
 }
 
 .botao:hover {
