@@ -18,24 +18,28 @@
     <section>
         <div>
             <p><h1 id="destaque">Calculadora de BTU's</h1></p>
-            <p><h2 class="titulo">Defina a área do seu ambiente:</h2></p>
-            <p>
-                <h3 id="h3">(Você pode digitar o valor exato no campo)</h3>
-            </p>
-            <p id="are">Área: <input type="number" name="area" id="area"> m<sup>2</sup></p>
-            <p><h2 class="titulo">Selecione o nível de exposição solar do ambiente:</h2></p>
-            <p class="nivelsol">
-                <input type="radio" name="radsolar" id="diretamente" checked>
-                <label for="diretamente">Diretamente</label>
-            </p>
-            <p class="nivelsol">
-                <input type="radio" name="radsolar" id="parcialmente">
-                <label for="parcialmente">Parcialmente</label>
-            </p>
-            <p class="nivelsol">
-                <input type="radio" name="radsolar" id="ausencia" >
-                <label for="ausencia">Ausência de luz solar</label>
-            <aside>
+            <div id="definaArea">
+                <p><h2 class="titulo">Defina a área do seu ambiente:</h2></p>
+                <p>
+                    <h3 id="h3">(Você pode digitar o valor exato no campo)</h3>
+                </p>
+                <p id="are">Área: <input type="number" name="area" id="area"> m<sup>2</sup></p>
+            </div>
+            <div id="nivelSolar">
+                <p><h2 class="titulo">Selecione o nível de exposição solar do ambiente:</h2></p>
+                <p class="nivelsol">
+                    <input type="radio" name="radsolar" id="diretamente" checked>
+                    <label for="diretamente">Diretamente</label>
+                </p>
+                <p class="nivelsol">
+                    <input type="radio" name="radsolar" id="parcialmente">
+                    <label for="parcialmente">Parcialmente</label>
+                </p>
+                <p class="nivelsol">
+                    <input type="radio" name="radsolar" id="ausencia" >
+                    <label for="ausencia">Ausência de luz solar</label>
+            </div>
+            <aside id="defina"> 
                 </p>
                 <p><h2 class="titulo">Defina a quantidade de pessoas, janelas e equipamentos:</h2></p>
                 <ul>

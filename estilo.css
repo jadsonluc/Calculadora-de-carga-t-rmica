@@ -73,7 +73,7 @@ nav > a:hover {
     font-family:'Economica', sans-serif;
     text-align: center;
     font-size: 1.05em;
-    padding: 2px;
+    padding-bottom: 10px;
     color: var(--cor1);
     font-weight: bolder;
 }
@@ -182,3 +182,25 @@ font-weight: bolder;
 }
 
 
+#definaArea {
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    text-align: center;
+    margin: 0px 80px 20px 80px;   
+}
+
+#nivelSolar {
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    margin: 0px 80px 20px 80px;   
+}
+
+#defina {
+    background-color: rgba(211, 211, 211, 0.438);
+    border-radius: 5px;
+    margin: 0px 80px 20px 80px;
+}
+
+.botao:hover {
+    border: 1px solid black;
+}
