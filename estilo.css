@@ -19,7 +19,6 @@ header {
     color: white;
     background-color: white;
     text-align: center;
-    
  }
 
 nav {
@@ -32,15 +31,21 @@ nav > a {
     color: var(--cor0);
     font-family: 'Economica', sans-serif;
     text-decoration: none;
-    font-weight: bolder;
-    
+    position: fixed;
+    bottom: 130px;
+    right: -34px;
+    background-color: var(--cor0);
+    color: white;
+    padding: 0px 5px 0px 5px;
+    border-radius: 4px 4px 0px 0px;
+    transform: rotate(270deg);
+    padding: 0px 5px 5px 5px;
 }
 
 nav > a:hover {
-    background-color: lightgray;
-    border-radius: 5px;
+    border: 1px solid black;
     transition-duration: 0.3s;
-    padding: 0px;
+    
 }
 
 #destaque {
@@ -52,6 +57,8 @@ nav > a:hover {
     border-radius: 3px;
     padding: 5px;
     font-weight: bolder;
+    position: sticky;
+    top: 0px;
 }
 
 .titulo {
@@ -173,3 +180,5 @@ font-weight: bolder;
     text-align: center;
     border-radius: 5px;
 }
+
+
