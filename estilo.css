@@ -212,4 +212,13 @@ font-weight: bolder;
     .titulo {
         font-size: 1em;
     }
+
+    #h3 {
+        font-size: 0.4em;
+        margin: -20px 6px 2px 0px;
+    }
+
+    #are {
+        font-size: 0.7em;
+    }
 }
