@@ -207,3 +207,9 @@ font-weight: bolder;
 .botao:hover {
     border: 1px solid black;
 }
+
+@media screen and (max-width: 550px) {
+    .titulo {
+        font-size: 1em;
+    }
+}
