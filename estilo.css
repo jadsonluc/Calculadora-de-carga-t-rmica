@@ -193,7 +193,6 @@ font-weight: bolder;
     margin: 25px;
     text-align: center;
     border-radius: 5px;
-    border: 1px solid var(--cor3);
 }
 
 
@@ -258,7 +257,6 @@ font-weight: bolder;
 
     #res {
         font-size: 0.8em;
-        border: 1px solid var(--cor3);
     }
 
 }
