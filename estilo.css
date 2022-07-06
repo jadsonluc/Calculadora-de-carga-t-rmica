@@ -223,6 +223,13 @@ font-weight: bolder;
     }
 
     .nivelsol {
+        font-size: 0.7em;
+    }
+
+    .opcoes {
         font-size: 0.8em;
+        list-style-type: none;
+        list-style-position: outside;
+        columns: 1;
     }
 }
