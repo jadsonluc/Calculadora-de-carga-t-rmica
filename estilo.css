@@ -174,7 +174,6 @@ padding-top: 35px;
     position: fixed;
     bottom: 43px;
     right: 5px;
-    
 }
 
 footer {
@@ -249,4 +248,16 @@ font-weight: bolder;
         list-style-position: inside;
         columns: 1;
     }
+
+    #topo {
+        position: fixed;
+        bottom: 43px;
+        right: 5px;
+    }
+
+    #res {
+        font-size: 0.8em;
+        border: 1px solid var(--cor3);
+    }
+
 }
